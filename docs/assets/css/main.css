@@ -1,6 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
+
 /* Reset */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2749,8 +2750,8 @@ h4{
 	}
 
 	p.blogtext{
-		font-size:10px;
-		font-size:1.0rem;
+		font-size:11px;
+		font-size:1.1rem;
 	}
 
 	body, input, textarea, select {
@@ -2803,6 +2804,12 @@ h4{
 	}
 
 }
+
+
+
+
+
+
 
 
 
@@ -2993,26 +3000,19 @@ h4{
     	}
 
     	p.blogtext{
-    		font-size:9px;
-    		font-size:0.9rem;
-    	}
-
-    	.feature-item
-    	{
-    		padding: 2rem;
+    		font-size:8.5px;
+    		font-size:0.85rem;
     	}
     	.feature-item
     	{
     		margin-bottom: 3rem; 
-    		padding: 2rem;
+    		padding: 1.5rem;
     	}
     	.feature-item .feature-num
     	{
     		font-size: 1.1rem;
     		line-height: 2.0rem;
-
     		top: -2.0rem; 
-
     		padding: 0 .6rem;
     	}
 
@@ -3111,8 +3111,8 @@ h4{
     	}
 
     	p.blogtext{
-    		font-size:8.0px;
-    		font-size:0.8rem;
+    		font-size:7.5px;
+    		font-size:0.75rem;
     	}
 
 
@@ -3267,7 +3267,7 @@ h4{
     	.lession-list ul li .lession-item-02 .lession-inner{
     		margin: 0;
     	}
-    	
+
     	.lession-list ul li .lession-text.lession-two-title .lession-title:first-child {
     		margin: 10% 2rem 3% 2rem;
     	}
@@ -3548,7 +3548,6 @@ h4{
     	}
 
     	h3{
-
     		position: relative; 
 
     		font-size: 18px;
@@ -3563,7 +3562,6 @@ h4{
     	}
 
     	h4{
-
     		position: relative; 
 
     		font-size: 15px;
@@ -3591,7 +3589,7 @@ h4{
     	{
     		font-size: 15px;
     		font-size: 1.5rem;
-    		margin-bottom: 13px;
+    		margin-bottom: 1.3px;
     		margin-bottom: 1.3rem; 
     		letter-spacing: .05em;
     	}
@@ -3610,8 +3608,8 @@ h4{
     	}
 
     	p.blogtext{
-    		font-size:7.0px;
-    		font-size:0.7rem;
+    		font-size:6.5px;
+    		font-size:0.65rem;
     	}
 
     	.cta .cta-head
@@ -3703,6 +3701,7 @@ h4{
     }
 
 
+
     nav{
     	font-size: 17pt;
     }
@@ -3711,9 +3710,11 @@ h4{
     	font-size: 18pt;
     }
 
+
     .label:hover{
     	color:blue;
     }
+
 
     p.resizeimage img { 
     	width: 100%;
