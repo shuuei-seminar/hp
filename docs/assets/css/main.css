@@ -2160,10 +2160,13 @@ h4{
 }
 
 .label{
-	color:#2f8bea;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 22px;
 }
+
+a.button{
+	padding: 2px 12px;
+}
+
 
 /* Wide */
 
@@ -2222,10 +2225,11 @@ h4{
 	}
 
 	.label{
-		color:#2f8bea;
-		font-size: 24px;
-		font-weight: bold;
+		font-size: 22px;
 	}
+	a.button{
+	padding: 2px 12px;
+}
 
 	.center{
 		text-align: center;
@@ -2255,8 +2259,15 @@ h4{
 	}
 
 	p.blogtext{
-		font-size:12px;
+		font-size:13px;
+		font-size:1.3rem;
+		line-height: 180.0%;
+	}
+
+	p.blog2{
+		font-size:12.0px;
 		font-size:1.2rem;
+		line-height: 170.0%;
 	}
 
 }
@@ -2304,10 +2315,11 @@ h4{
 	}
 
 	.label{
-		color:#2f8bea;
-		font-size: 24px;
-		font-weight: bold;
+		font-size: 22px;
 	}
+	a.button{
+	padding: 2px 12px;
+}
 
 	.center{
 		text-align: center;
@@ -2334,6 +2346,11 @@ h4{
 	{
 		font-size: 10.5px;
 		font-size: 1.05rem;
+	}
+	p.blog2{
+		font-size:11.5px;
+		font-size:1.15rem;
+		line-height: 170.0%;
 	}
 
 }
@@ -2427,6 +2444,11 @@ h4{
 	{
 		font-size: 10px;
 		font-size: 1.0rem;
+	}
+	p.blog2{
+		font-size:11.0px;
+		font-size:1.1rem;
+		line-height: 170.0%;
 	}
 
 }
@@ -2649,10 +2671,11 @@ h4{
 	}
 
 	.label{
-		color:#2f8bea;
-		font-size: 22px;
-		font-weight: bold;
+		font-size: 21px;
 	}
+	a.button{
+	padding: 2px 12px;
+}
 
 	.center{
 		text-align: center;
@@ -2718,10 +2741,11 @@ h4{
 	}
 
 	.label{
-		color:#2f8bea;
-		font-size: 22px;
-		font-weight: bold;
+		font-size: 21px;
 	}
+	a.button{
+	padding: 2px 12px;
+}
 	.center{
 		text-align: center;
 		margin:0px 40px 0px 40px;
@@ -2750,8 +2774,14 @@ h4{
 	}
 
 	p.blogtext{
-		font-size:11px;
-		font-size:1.1rem;
+		font-size:12.5px;
+		font-size:1.25rem;
+		line-height: 180.0%;
+	}
+	p.blog2{
+		font-size:10.0px;
+		font-size:1.0rem;
+		line-height: 170.0%;
 	}
 
 	body, input, textarea, select {
@@ -2820,7 +2850,7 @@ h4{
     {
     	position: relative; 
 
-    	margin-bottom: 60px; 
+    	margin-bottom: 40px; 
     	margin-bottom: 4rem;
     	padding: 30px;
     	padding: 2rem;
@@ -2883,8 +2913,8 @@ h4{
 
     .feature-item .feature-title
     {
-    	font-size: 18px;
-    	font-size: 1.8rem;
+    	font-size: 17px;
+    	font-size: 1.7rem;
     	font-weight: bold;
 
     	margin-bottom: 15px;
@@ -2941,7 +2971,7 @@ h4{
 
     		position: relative; 
 
-    		font-size: 20px;
+    		font-size: 25px;
     		font-weight: bold;
 
     		margin-bottom: 15px;
@@ -2956,7 +2986,7 @@ h4{
 
     		position: relative; 
 
-    		font-size: 18px;
+    		font-size: 20px;
     		font-weight: bold;
 
     		margin-bottom: 0.7rem;
@@ -2967,10 +2997,11 @@ h4{
     	}
 
     	.label{
-    		color:#2f8bea;
-    		font-size: 21px;
-    		font-weight: bold;
+    		font-size: 22px;
     	}
+    	a.button{
+	padding: 2px 12px;
+}
 
     	.center{
     		text-align: center;
@@ -2979,8 +3010,8 @@ h4{
 
     	.stage-title
     	{
-    		font-size: 17px;
-    		font-size: 1.7rem;
+    		font-size: 20.5px;
+    		font-size: 2.05rem;
     		margin-bottom: 15px;
     		margin-bottom: 1.5rem; 
     		letter-spacing: .05em;
@@ -2988,21 +3019,33 @@ h4{
 
     	.stage-title .en
     	{
-    		margin-right: 8.5px;
-    		margin-right: 0.85rem;
+    		margin-right: 9.5px;
+    		margin-right: 0.95rem;
     		font-weight: bold;
     	}
 
     	.stage-title .jp
     	{
-    		font-size: 8.5px;
-    		font-size: 0.85rem;
+    		font-size: 12.0px;
+    		font-size: 1.2rem;
     	}
 
     	p.blogtext{
-    		font-size:8.5px;
-    		font-size:0.85rem;
+    		font-size:12.0px;
+    		font-size:1.2rem;
+    		line-height: 180.0%;
     	}
+    	p.blog2{
+		font-size:10.0px;
+		font-size:1.0rem;
+		line-height: 170.0%;
+	}
+
+	    .feature-item:first-child
+    {
+    	margin-top: 40px;
+    	margin-top: 4rem;
+    }
     	.feature-item
     	{
     		margin-bottom: 3rem; 
@@ -3010,19 +3053,19 @@ h4{
     	}
     	.feature-item .feature-num
     	{
-    		font-size: 1.1rem;
-    		line-height: 2.0rem;
-    		top: -2.0rem; 
+    		font-size: 1.4rem;
+    		line-height: 2.1rem;
+    		top: -2.1rem; 
     		padding: 0 .6rem;
     	}
 
     	.feature-item .feature-title
     	{
-    		font-size: 1.5rem;
+    		font-size: 1.6rem;
     	}
     	.feature-item .feature-content .text .txt-plain
     	{
-    		font-size: 0.8rem;
+    		font-size: 1.0rem;
     		line-height: 178.5%;
     	}
     	.feature-item .feature-content.last
@@ -3033,6 +3076,38 @@ h4{
 
     @media (max-width: 640px)
     {
+    .feature-item:first-child
+    {
+    	margin-top: 35px;
+    	margin-top: 3.5rem;
+    }
+
+    	 .feature-item
+    	{
+    		margin-bottom: 3rem; 
+    		padding: 1.5rem;
+    	}
+    	.feature-item .feature-num
+    	{
+    		font-size: 1.4rem;
+    		line-height: 2.1rem;
+    		top: -2.1rem; 
+    		padding: 0 .6rem;
+    	}
+
+    	.feature-item .feature-title
+    	{
+    		font-size: 1.6rem;
+    	}
+    	.feature-item .feature-content .text .txt-plain
+    	{
+    		font-size: 1.0rem;
+    		line-height: 178.5%;
+    	}
+    	.feature-item .feature-content.last
+    	{
+    		margin-top: 2rem;
+    	}
 
     	.feature-item .feature-title
     	{
@@ -3052,7 +3127,7 @@ h4{
 
     		position: relative; 
 
-    		font-size: 19px;
+    		font-size: 18px;
     		font-weight: bold;
 
     		margin-bottom: 15px;
@@ -3078,10 +3153,11 @@ h4{
     	}
 
     	.label{
-    		color:#2f8bea;
-    		font-size: 19px;
-    		font-weight: bold;
+    		font-size: 17px;
     	}
+    	a.button{
+	padding: 1px 18px;
+}
 
     	.center{
     		text-align: center;
@@ -3111,9 +3187,15 @@ h4{
     	}
 
     	p.blogtext{
-    		font-size:7.5px;
-    		font-size:0.75rem;
+    		font-size:8.5px;
+    		font-size:0.85rem;
+    		line-height: 180.0%;
     	}
+    	p.blog2{
+		font-size:7.0px;
+		font-size:0.7rem;
+		line-height: 170.0%;
+	}
 
 
     	.is_pc
@@ -3531,6 +3613,37 @@ h4{
 
     @media (max-width: 460px)
     {
+    .feature-item:first-child
+    {
+    	margin-top: 30px;
+    	margin-top: 3rem;
+    }
+    	.feature-item
+    	{
+    		margin-bottom: 3rem; 
+    		padding: 1.2rem;
+    	}
+    	.feature-item .feature-num
+    	{
+    		font-size: 1.0rem;
+    		line-height: 1.6rem;
+    		top: -1.6rem; 
+    		padding: 0 .6rem;
+    	}
+
+    	.feature-item .feature-title
+    	{
+    		font-size: 1.6rem;
+    	}
+    	.feature-item .feature-content .text .txt-plain
+    	{
+    		font-size: 0.8rem;
+    		line-height: 178.5%;
+    	}
+    	.feature-item .feature-content.last
+    	{
+    		margin-top: 1.5rem;
+    	}
 
 
     	.feature-item .feature-title
@@ -3550,7 +3663,7 @@ h4{
     	h3{
     		position: relative; 
 
-    		font-size: 18px;
+    		font-size: 16px;
     		font-weight: bold;
 
     		margin-bottom: 15px;
@@ -3575,10 +3688,11 @@ h4{
     	}
 
     	.label{
-    		color:#2f8bea;
-    		font-size: 18px;
-    		font-weight: bold;
+    		font-size: 15px;
     	}
+    	a.button{
+	padding: 0px 5px;
+}
 
     	.center{
     		text-align: center;
@@ -3608,9 +3722,15 @@ h4{
     	}
 
     	p.blogtext{
-    		font-size:6.5px;
-    		font-size:0.65rem;
+    		font-size:7.0px;
+    		font-size:0.7rem;
+    		line-height: 180.0%;
     	}
+    	p.blog2{
+		font-size:6.0px;
+		font-size:0.6rem;
+		line-height: 170.0%;
+	}
 
     	.cta .cta-head
     	{
@@ -3711,13 +3831,28 @@ h4{
     }
 
 
-    .label:hover{
-    	color:blue;
-    }
-
-
     p.resizeimage img { 
     	width: 100%;
     	margin:0px 0px 0px 0px
     }
 
+
+/* Button */
+a.button {
+	position: relative;
+		display: inline-block;
+		background-color: #2f8bea;
+		color:white;
+		text-decoration: none;
+		cursor: pointer;
+		-moz-transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out;
+	    border-radius: 4px;/*角の丸み*/
+	}
+
+a.button:hover {
+    color:white;
+    background-color:#00bcd4;
+}
