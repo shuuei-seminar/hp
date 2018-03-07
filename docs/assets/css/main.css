@@ -2960,6 +2960,14 @@ a.button{
     	margin-bottom: 1rem;
     }
 
+    .feature-item .text .txt-plain2
+    	{
+    	margin-bottom: 10px;
+    	margin-bottom: 1rem;
+    	}
+
+
+
 
 
 
@@ -3073,6 +3081,14 @@ a.button{
     	{
     		margin-top: 2rem;
     	}
+
+    	.feature-item .text .txt-plain2
+    	{
+    		font-size: 1.0rem;
+    		line-height: 178.5%;
+    	}
+
+
     }
 
     @media (max-width: 640px)
@@ -3105,6 +3121,13 @@ a.button{
     		font-size: 1.0rem;
     		line-height: 178.5%;
     	}
+
+    	.feature-item .text .txt-plain2
+    	{
+    		font-size: 1.0rem;
+    		line-height: 178.5%;
+    	}
+
     	.feature-item .feature-content.last
     	{
     		margin-top: 2rem;
@@ -3641,6 +3664,13 @@ a.button{
     		font-size: 0.8rem;
     		line-height: 178.5%;
     	}
+
+    	.feature-item .text .txt-plain2
+    	{
+    		font-size: 0.8rem;
+    		line-height: 178.5%;
+    	}
+
     	.feature-item .feature-content.last
     	{
     		margin-top: 1.5rem;
