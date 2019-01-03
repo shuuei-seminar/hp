@@ -2135,7 +2135,7 @@ h3{
 
 	position: relative; 
 
-	font-size: 25px;
+	font-size: 24px;
 	font-weight: bold;
 
 	margin-bottom: 15px;
@@ -2200,11 +2200,11 @@ a.button{
 
 		position: relative; 
 
-		font-size: 25px;
+		font-size: 24px;
 		font-weight: bold;
 
-		margin-bottom: 15px;
-		margin-bottom: 1.5rem;
+		margin-bottom: 14px;
+		margin-bottom: 1.4rem;
 
 		letter-spacing: .06em; 
 
@@ -2290,11 +2290,11 @@ a.button{
 
 		position: relative; 
 
-		font-size: 23px;
+		font-size: 22px;
 		font-weight: bold;
 
-		margin-bottom: 15px;
-		margin-bottom: 1.5rem;
+		margin-bottom: 14px;
+		margin-bottom: 1.4rem;
 
 		letter-spacing: .06em; 
 
@@ -2649,8 +2649,8 @@ a.button{
 		font-size: 22px;
 		font-weight: bold;
 
-		margin-bottom: 15px;
-		margin-bottom: 1.5rem;
+		margin-bottom: 14px;
+		margin-bottom: 1.4rem;
 
 		letter-spacing: .06em; 
 
@@ -2712,15 +2712,21 @@ a.button{
 @media screen and (max-width: 736px) {
 
 	/* Basic */
+	h2 {
+		font-size: 1.2em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
 	h3{
 
 		position: relative; 
 
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: bold;
 
-		margin-bottom: 15px;
-		margin-bottom: 1.5rem;
+		margin-bottom: 12px;
+		margin-bottom: 1.2rem;
 
 		letter-spacing: .06em; 
 
@@ -2787,12 +2793,6 @@ a.button{
 
 	body, input, textarea, select {
 		font-size: 10pt;
-	}
-
-	h2 {
-		font-size: 1.5em;
-		letter-spacing: 0;
-		font-weight: 300;
 	}
 
 	.container {
@@ -2980,11 +2980,11 @@ a.button{
 
     		position: relative; 
 
-    		font-size: 25px;
+    		font-size: 21px;
     		font-weight: bold;
 
-    		margin-bottom: 15px;
-    		margin-bottom: 1.5rem;
+    		margin-bottom: 13px;
+    		margin-bottom: 1.3rem;
 
     		letter-spacing: .06em; 
 
@@ -3147,15 +3147,16 @@ a.button{
     		color: #2f8bea;
     	}
 
+
     	h3{
 
     		position: relative; 
 
-    		font-size: 18px;
+    		font-size: 15px;
     		font-weight: bold;
 
-    		margin-bottom: 15px;
-    		margin-bottom: 1.5rem;
+    		margin-bottom: 9px;
+    		margin-bottom: 0.9rem;
 
     		letter-spacing: .06em; 
 
@@ -3190,10 +3191,10 @@ a.button{
 
     	.stage-title
     	{
-    		font-size: 16px;
-    		font-size: 1.6rem;
-    		margin-bottom: 14px;
-    		margin-bottom: 1.4rem; 
+    		font-size: 15px;
+    		font-size: 1.5rem;
+    		margin-bottom: 12px;
+    		margin-bottom: 1.2rem; 
     		letter-spacing: .05em;
     	}
 
@@ -3417,11 +3418,11 @@ a.button{
     	}
     	.stage-title
     	{
-    		font-size: 2rem;
+    		font-size: 1.7rem;
     	}
     	.stage-title .jp
     	{
-    		font-size: 1.4rem;
+    		font-size: 1.3rem;
     	}
     	.stage-txt
     	{
@@ -3667,7 +3668,7 @@ a.button{
 
     	.feature-item .text .txt-plain2
     	{
-    		font-size: 0.8rem;
+    		font-size: 0.7rem;
     		line-height: 178.5%;
     	}
 
@@ -3691,14 +3692,15 @@ a.button{
     		color: #2f8bea;
     	}
 
+
     	h3{
     		position: relative; 
 
-    		font-size: 16px;
+    		font-size: 12px;
     		font-weight: bold;
 
-    		margin-bottom: 15px;
-    		margin-bottom: 1.5rem;
+    		margin-bottom: 8px;
+    		margin-bottom: 0.8rem;
 
     		letter-spacing: .06em; 
 
@@ -3732,10 +3734,10 @@ a.button{
 
     	.stage-title
     	{
-    		font-size: 15px;
-    		font-size: 1.5rem;
-    		margin-bottom: 1.3px;
-    		margin-bottom: 1.3rem; 
+    		font-size: 11px;
+    		font-size: 1.1rem;
+    		margin-bottom: 0.9px;
+    		margin-bottom: 0.9rem; 
     		letter-spacing: .05em;
     	}
 
@@ -3748,8 +3750,8 @@ a.button{
 
     	.stage-title .jp
     	{
-    		font-size: 7.5px;
-    		font-size: 0.75rem;
+    		font-size: 7.0px;
+    		font-size: 0.7rem;
     	}
 
     	p.blogtext{
@@ -3888,3 +3890,7 @@ a.button:hover {
     background-color:#00bcd4;
 }
 
+bold-bold{
+    font-weight: bold;
+    color: black;
+}
